@@ -1,0 +1,113 @@
+
+.Data a {
+    text-decoration: none;
+    color: blue;
+}
+.Data a:hover{
+    color: rgb(36, 27, 35);
+}
+.Data button{
+    background-color: green;
+    padding: 4px;
+    border-radius: 12%;
+    width: 65px;
+    justify-content: center;
+    border: 0;
+}
+ 
+.All{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Data{
+    margin-top: 10px;
+    margin-left: 10px;
+    width:15%;
+}
+.Secondhalf{
+    width: 50%;
+}
+.Secondhalf h{
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(83, 12, 248);
+}
+.Secondhalf a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.Secondhalf img{
+    width: 100%;
+    height: 220px;
+}
+.TopDiv {
+    width: 100%;
+    color: white; 
+    background-color: blue;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.TopDiv p{
+    margin-left: 10px;
+}
+.ButtonPanel
+    {   
+        display: flex;
+        align-items: center;
+        margin-left: 70%;
+        
+    }
+
+.ButtonPanel button{
+    color: white;
+    border: 0;
+    background-color: blue;
+}
+.UserTable{
+    color: brown;
+    padding: 50px;
+}
+.Data button {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.table{
+    margin-left: 3%;
+    margin-top: 15px;
+    width: 30%;
+    
+}
+td{
+    border:1px solid black;
+}
+
+
+tr:nth-child(-n+5){
+    font-weight: bold;
+    background-color: rgb(86, 241, 86);
+    color: white;
+}
+tr:nth-child(2){
+    font-weight: bold;
+    background-color: green;
+    color: white;
+}
+tr:first-child{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+tr:nth-child(n+6){
+    font-weight: bold;
+    background-color: rgb(199, 196, 196);
+    color: white;
+}
+tr:nth-child(n+19){
+    font-weight: bold;
+    background-color: rgb(247, 12, 157);
+    color: white;
+}
