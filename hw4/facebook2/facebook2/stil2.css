@@ -1,0 +1,113 @@
+.All{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    background-color: blue;
+}
+.Top p{
+    font-weight: 600;
+    font-size:23px;
+    color: white;
+    padding-left: 20px;
+}
+.Top button{
+    margin-left: 80%;
+    background-color: blue;
+    color: white;
+    border: 0;
+    
+}
+.Body{
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.LeftPart{
+
+    display: flex;
+    flex-direction: column;
+    width:20%;
+}
+.User{
+    display: flex;
+    flex-direction: column;
+}
+.Services{
+    display:flex;
+    flex-direction: column;
+}
+.User img{ 
+    width: 100%;
+}
+.Name{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+.Name p{margin: 5px;}
+.quote{
+    padding: 4px;
+    border: 1px solid gray;
+}
+.quote p{
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    
+}
+.sentence{
+    display: flex;
+    justify-content:center;
+}
+.sentence p{margin-left: 5px;}
+.Services p{
+    margin: 2px;
+    border: 1px solid gray;
+}
+.Central{
+    width: 45%;
+    margin-left: 5%;
+}
+.Central h{
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+}
+.Central a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(248, 242, 242);
+}
+.Central img{
+    padding-top: 10px;
+    width: 80%;
+    height: 300px;
+}
+.Last{
+    width:30%;
+}
+.catch{
+    display: flex;
+
+}
+.Timer p{margin-left: 80%;}
+.catch p{
+    font-weight: bold;
+}
+.Publisher p{
+    color: gray;
+}
+.Post p{
+    margin:2px;
+}
+.Post{
+    padding:10px;
+    border: 1px solid gray;
+}

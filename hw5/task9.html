@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <script>
+            let m= parseFloat(prompt("INSERT YOUR AMOUNT IN KZT: "));
+            let c=parseInt(prompt("1-Convert to usd \n 2- Convert to eur \n 3-Convert to gbp"));
+            if(c==1){
+                alert((m/380).toFixed(2)+"USD");
+            }
+            else if(c==2)
+                alert((m/430).toFixed(2)+"EUR");
+            else alert((m/480).toFixed(2)+"GBP")
+        </script>
+    </body>
+</html>
