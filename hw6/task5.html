@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <script>
+            let users = [
+                {"login":"ilyas", "password": "qwerty"},
+                {"login":"eldar", "password": "qqqqq"},
+                {"login":"assylkhan", "password": "qweqwe"},
+                {"login":"anel", "password": "asdasd"},
+                {"login":"alibek", "password": "aaaaaa"}
+            ];
+            let acc=prompt("Enter login password: ");
+            let A=acc.split(" ");
+            let log=A[0];
+            let pwd=A[1];
+            let fl=false;
+            for(let i=0;i<users.length;i++){
+                if(users[i]["login"]==log && users[i]["password"]==pwd){
+                    alert("Welcome, you are authenticated");
+                    fl=true;
+                }
+            }
+            if(fl==false) alert("User not found");
+        </script>
+    </body>
+</html>

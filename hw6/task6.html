@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <script>
+            let books=[{"Name":"Philosoper stone","Author":"Joanne Rowling","ISBN": "111","Price":"10000"},
+                    {"Name":"Kokserek","Author":"Mukhtar Auezov","ISBN":"111","Price":"12000"},
+                    {"Name":"Chamber of secrets","Author":"Joanne Rowling","ISBN":"111","Price":"12000"},
+                    {"Name":"Prisoner of Azkaban","Author":"Joanne Rowling","ISBN":"111","Price":"12000"},
+                    {"Name":"Robinzon Kruzo","Author":"Daniel Defoe","ISBN":200,"Price":"20000"}];
+            let author=prompt("Enter Author");
+            for(let i=0;i<books.length;i++){
+                if(books[i]["Author"]==author){
+                    alert(books[i]["Name"]+" "+books[i]["Author"]+" "+books[i]["ISBN"]+" "+books[i]["Price"]);    
+                }
+            } 
+        </script>
+    </body>
+</html>
