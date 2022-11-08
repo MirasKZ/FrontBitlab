@@ -75,6 +75,45 @@
     width: 45%;
     margin-left: 5%;
 }
+.Central2ndPage{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 5%;
+}
+.Central2ndPage img{
+    height: 150px;
+    width: 150px;
+}
+.Person{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.FriendName{
+    font-weight: bold;
+}
+.location{
+    color: black
+}
+.Remove button{
+    background-color: red;
+    padding: 2px;
+    color: white;
+    
+}
+
+.Remove {
+    margin-left:220px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.Send button{
+    color: white;
+    background-color: gray;
+    }
+
 .Central h{
     font-size: 23px;
     font-weight: bold;
@@ -91,23 +130,49 @@
     height: 300px;
 }
 .Last{
-    width:30%;
+    width:26%;
+    
 }
+
+ 
+.Last p{
+    
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
 .catch{
+    width: 100%;
+    
     display: flex;
+    
 
 }
-.Timer p{margin-left: 80%;}
+.Timer p{
+    padding-left: 30px;}
 .catch p{
     font-weight: bold;
+}
+.Timer{
+    margin-right: 5px;
+    
+   
 }
 .Publisher p{
     color: gray;
 }
 .Post p{
-    margin:2px;
+    
 }
 .Post{
+    width: 100%;
     padding:10px;
-    border: 1px solid gray;
+    
+}
+.Info{
+    
+}
+.Publisher{
+    
 }
