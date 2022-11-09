@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <script>
+            let n=parseInt(prompt("Enter number count: "));
+            let a=[];
+            for(let i=0;i<n;i++){
+                a.push(parseInt(prompt("Enter number: ")));
+            }
+            let m=parseInt(prompt("Enter m: "));
+            if(a.indexOf(m)!=-1){
+                alert("YES");
+                alert(a.indexOf(m));
+            }
+            else{
+                alert("NO");
+            }
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <script>
+            let n=parseInt(prompt());
+            let arr=[];
+            for(let i=0;i<n;i++){
+                arr.push(parseInt(prompt()));
+            }
+            let pr=1;
+            for(let i of arr){
+                if(i!=0) pr=pr*i;
+            }
+            alert(pr);
+        </script>
+    </body>
+</html>

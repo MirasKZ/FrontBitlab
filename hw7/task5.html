@@ -1,0 +1,73 @@
+<html>
+    <body>
+        <script>
+
+                function toString(e){
+                    return e.name+"-"+e.year+"-"+e.volume+"-"+e.price;
+                }
+
+            while(true){
+                cars = [
+                    {"name":"Toyota", "price": 12000000, "year": 2015, "volume": 2.2},
+                    {"name":"Mercedes", "price": 70000000, "year": 2018, "volume": 3.8},
+                    {"name":"Toyota", "price": 7000000, "year": 2013, "volume": 2.0},
+                    {"name":"BMW", "price": 11000000, "year": 2011, "volume": 3.0},
+                    {"name":"Lexus", "price": 60000000, "year": 2017 ,"volume": 5.7}
+                ];
+                let text1="INSERT [1] TO SEARCH BY NAME";
+                let text2="INSERT [2] TO SEARCH BY YEAR";
+                let text3="INSERT [3] TO SEARCH BY ENGINE VOLUME";
+                let text4="INSERT [4] TO SEARCH BY PRICE";
+                let text5="INSERT [5] TO EXIT";
+                alert(text1+"\n"+text2+"\n"+text3+"\n"+text4+"\n"+text5);
+                let c=parseInt(prompt("Enter search criteria:"));
+                if(c==1){
+                    let s=prompt("Enter car name: ");
+                    let ans="";
+                    for(let u of cars){
+                        if(u.name==s) {
+                            ans=ans +toString(u)+"\n";
+                        }
+                    }
+                    alert(ans);
+                }
+                else if(c==2){
+                    let start=parseInt(prompt("Enter start year: "));
+                    let end=parseInt(prompt("Enter end year: "));
+                    let ans="";
+                    for(let u of cars){
+                        if(u.year>=start && u.year<=end){
+                            ans=ans +toString(u)+"\n"; 
+                        }
+                    }
+                    alert(ans);
+                }
+                else if(c==3){
+                    let start=parseFloat(prompt("INSERT ENGINE VOLUME START FROM:"));
+                    let end=parseFloat(prompt("INSERT ENGINE VOLUME ENDS FROM:")); 
+                    let ans="";
+                    for(let u of cars){
+                        if(u.volume>=start && u.volume<=end){
+                            ans=ans +toString(u)+"\n"; 
+                        }
+                    }
+                    alert(ans);
+                }
+                else if(c==4){
+                    let start=parseFloat(prompt("INSERT PRICE START FROM:"));
+                    let end=parseFloat(prompt("INSERT PRICE ENDS FROM:")); 
+                    let ans="";
+                    for(let u of cars){
+                        if(u.price>=start && u.price<=end){
+                            ans=ans +toString(u)+"\n"; 
+                        }
+                    }
+                    alert(ans);
+                }
+                else{
+                    break;
+                }
+            }
+        </script>
+    </body>
+</html>

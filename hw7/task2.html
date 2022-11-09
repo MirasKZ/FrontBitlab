@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <script>
+            let a=[];
+            let n=parseInt(prompt());
+            while(n!=0){
+                a.push(n);
+                n=parseInt(prompt());
+            }
+            let p=1;
+            for(let x of a){
+                p=p*x;
+            }
+            alert(Math.pow(p,1/a.length));
+
+        </script>
+    </body>
+</html>

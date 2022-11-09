@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <script>
+            let arr=[];
+            while(true){
+                let n=parseInt(prompt());
+                if(n!=0) {
+                    arr.push(n);
+                }
+                else{break;} 
+            }
+            let text="";
+            for (let u of arr){
+                if(u>0) text=text+u+" ";
+            }
+            alert(text);
+        </script>
+    </body>
+</html>
